@@ -19,7 +19,6 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route path='/shop' component={ShopPage} />
         </Switch>
-        <Route path='/shop/hats' component={HatsPage} />
     </div>
   );
 };
